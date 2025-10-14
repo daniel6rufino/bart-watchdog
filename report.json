@@ -1,27 +1,291 @@
 {
-    "watson_summary": "As seguintes vulnerabilidades foram encontradas:\n- express@4.18.2 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- form-data@4.0.4 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- form-data@4.0.4 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- lodash@4.17.21 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n",
+    "watson_summary": "As seguintes vulnerabilidades foram encontradas:\n- express@4.16.0 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- express@4.16.0 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- express@4.16.0 -> Directory traversal vulnerability in express-fileupload before 1.1.10.\n- express@4.16.0 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- form-data@1.0.0 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de manuseio de streams. Atualize para 2.0.0 ou superior.\n- form-data@1.0.0 -> DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior.\n- form-data@1.0.0 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- form-data@1.0.0 -> Directory traversal vulnerability in express-fileupload before 1.1.10.\n- form-data@1.0.0 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- form-data@1.0.0 -> Regular Expression Denial of Service (ReDoS) in debug before 2.6.9.\n- form-data@1.0.0 -> Arbitrary code execution vulnerability in handlebars before 4.7.7.\n- form-data@1.0.0 -> Prototype pollution vulnerability in minimist before 1.2.3.\n- lodash@4.17.20 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- lodash@4.17.20 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- lodash@4.17.20 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- axios@0.20.0 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de manuseio de streams. Atualize para 2.0.0 ou superior.\n- axios@0.20.0 -> DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior.\n- axios@0.20.0 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- axios@0.20.0 -> Directory traversal vulnerability in express-fileupload before 1.1.10.\n- axios@0.20.0 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- axios@0.20.0 -> Server-Side Request Forgery (SSRF) vulnerability in axios before 0.21.1.\n- axios@0.20.0 -> Regular Expression Denial of Service (ReDoS) in debug before 2.6.9.\n- axios@0.20.0 -> Arbitrary code execution vulnerability in handlebars before 4.7.7.\n- axios@0.20.0 -> Prototype pollution vulnerability in minimist before 1.2.3.\n- mongoose@5.10.0 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- mongoose@5.10.0 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- debug@2.6.8 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- debug@2.6.8 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- debug@2.6.8 -> Directory traversal vulnerability in express-fileupload before 1.1.10.\n- debug@2.6.8 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- debug@2.6.8 -> Regular Expression Denial of Service (ReDoS) in debug before 2.6.9.\n- debug@2.6.8 -> Arbitrary code execution vulnerability in handlebars before 4.7.7.\n- handlebars@4.7.6 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- handlebars@4.7.6 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- handlebars@4.7.6 -> Directory traversal vulnerability in express-fileupload before 1.1.10.\n- handlebars@4.7.6 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- handlebars@4.7.6 -> Arbitrary code execution vulnerability in handlebars before 4.7.7.\n- minimist@1.2.0 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de manuseio de streams. Atualize para 2.0.0 ou superior.\n- minimist@1.2.0 -> DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior.\n- minimist@1.2.0 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- minimist@1.2.0 -> Directory traversal vulnerability in express-fileupload before 1.1.10.\n- minimist@1.2.0 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- minimist@1.2.0 -> Regular Expression Denial of Service (ReDoS) in debug before 2.6.9.\n- minimist@1.2.0 -> Arbitrary code execution vulnerability in handlebars before 4.7.7.\n- minimist@1.2.0 -> Prototype pollution vulnerability in minimist before 1.2.3.\n- chalk@5.3.0 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- chalk@5.3.0 -> Prototype pollution vulnerability in mongoose due to unsanitized object keys.\n- dotenv@16.0.3 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n",
     "vulnerable_dependencies": [
         {
             "package": "express",
-            "version": "4.18.2",
+            "version": "4.16.0",
             "cve_id": "CVE-2025-30153",
             "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
         },
         {
+            "package": "express",
+            "version": "4.16.0",
+            "cve_id": "CVE-2021-23337",
+            "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+        },
+        {
+            "package": "express",
+            "version": "4.16.0",
+            "cve_id": "CVE-2019-5413",
+            "description": "Directory traversal vulnerability in express-fileupload before 1.1.10."
+        },
+        {
+            "package": "express",
+            "version": "4.16.0",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
             "package": "form-data",
-            "version": "4.0.4",
+            "version": "1.0.0",
+            "cve_id": "CVE-2025-47935",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de manuseio de streams. Atualize para 2.0.0 ou superior."
+        },
+        {
+            "package": "form-data",
+            "version": "1.0.0",
+            "cve_id": "CVE-2025-47944",
+            "description": "DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior."
+        },
+        {
+            "package": "form-data",
+            "version": "1.0.0",
+            "cve_id": "CVE-2021-23337",
+            "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+        },
+        {
+            "package": "form-data",
+            "version": "1.0.0",
+            "cve_id": "CVE-2019-5413",
+            "description": "Directory traversal vulnerability in express-fileupload before 1.1.10."
+        },
+        {
+            "package": "form-data",
+            "version": "1.0.0",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "form-data",
+            "version": "1.0.0",
+            "cve_id": "CVE-2017-16137",
+            "description": "Regular Expression Denial of Service (ReDoS) in debug before 2.6.9."
+        },
+        {
+            "package": "form-data",
+            "version": "1.0.0",
+            "cve_id": "CVE-2021-23369",
+            "description": "Arbitrary code execution vulnerability in handlebars before 4.7.7."
+        },
+        {
+            "package": "form-data",
+            "version": "1.0.0",
+            "cve_id": "CVE-2020-7598",
+            "description": "Prototype pollution vulnerability in minimist before 1.2.3."
+        },
+        {
+            "package": "lodash",
+            "version": "4.17.20",
             "cve_id": "CVE-2025-30153",
             "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
         },
         {
-            "package": "form-data",
-            "version": "4.0.4",
+            "package": "lodash",
+            "version": "4.17.20",
             "cve_id": "CVE-2021-23337",
             "description": "Prototype pollution vulnerability in lodash before 4.17.21."
         },
         {
             "package": "lodash",
-            "version": "4.17.21",
+            "version": "4.17.20",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2025-47935",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de manuseio de streams. Atualize para 2.0.0 ou superior."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2025-47944",
+            "description": "DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2021-23337",
+            "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2019-5413",
+            "description": "Directory traversal vulnerability in express-fileupload before 1.1.10."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2021-3749",
+            "description": "Server-Side Request Forgery (SSRF) vulnerability in axios before 0.21.1."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2017-16137",
+            "description": "Regular Expression Denial of Service (ReDoS) in debug before 2.6.9."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2021-23369",
+            "description": "Arbitrary code execution vulnerability in handlebars before 4.7.7."
+        },
+        {
+            "package": "axios",
+            "version": "0.20.0",
+            "cve_id": "CVE-2020-7598",
+            "description": "Prototype pollution vulnerability in minimist before 1.2.3."
+        },
+        {
+            "package": "mongoose",
+            "version": "5.10.0",
+            "cve_id": "CVE-2025-30153",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
+        },
+        {
+            "package": "mongoose",
+            "version": "5.10.0",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "debug",
+            "version": "2.6.8",
+            "cve_id": "CVE-2025-30153",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
+        },
+        {
+            "package": "debug",
+            "version": "2.6.8",
+            "cve_id": "CVE-2021-23337",
+            "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+        },
+        {
+            "package": "debug",
+            "version": "2.6.8",
+            "cve_id": "CVE-2019-5413",
+            "description": "Directory traversal vulnerability in express-fileupload before 1.1.10."
+        },
+        {
+            "package": "debug",
+            "version": "2.6.8",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "debug",
+            "version": "2.6.8",
+            "cve_id": "CVE-2017-16137",
+            "description": "Regular Expression Denial of Service (ReDoS) in debug before 2.6.9."
+        },
+        {
+            "package": "debug",
+            "version": "2.6.8",
+            "cve_id": "CVE-2021-23369",
+            "description": "Arbitrary code execution vulnerability in handlebars before 4.7.7."
+        },
+        {
+            "package": "handlebars",
+            "version": "4.7.6",
+            "cve_id": "CVE-2025-30153",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
+        },
+        {
+            "package": "handlebars",
+            "version": "4.7.6",
+            "cve_id": "CVE-2021-23337",
+            "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+        },
+        {
+            "package": "handlebars",
+            "version": "4.7.6",
+            "cve_id": "CVE-2019-5413",
+            "description": "Directory traversal vulnerability in express-fileupload before 1.1.10."
+        },
+        {
+            "package": "handlebars",
+            "version": "4.7.6",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "handlebars",
+            "version": "4.7.6",
+            "cve_id": "CVE-2021-23369",
+            "description": "Arbitrary code execution vulnerability in handlebars before 4.7.7."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2025-47935",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de manuseio de streams. Atualize para 2.0.0 ou superior."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2025-47944",
+            "description": "DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2021-23337",
+            "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2019-5413",
+            "description": "Directory traversal vulnerability in express-fileupload before 1.1.10."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2017-16137",
+            "description": "Regular Expression Denial of Service (ReDoS) in debug before 2.6.9."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2021-23369",
+            "description": "Arbitrary code execution vulnerability in handlebars before 4.7.7."
+        },
+        {
+            "package": "minimist",
+            "version": "1.2.0",
+            "cve_id": "CVE-2020-7598",
+            "description": "Prototype pollution vulnerability in minimist before 1.2.3."
+        },
+        {
+            "package": "chalk",
+            "version": "5.3.0",
+            "cve_id": "CVE-2025-30153",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
+        },
+        {
+            "package": "chalk",
+            "version": "5.3.0",
+            "cve_id": "CVE-2021-23440",
+            "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+        },
+        {
+            "package": "dotenv",
+            "version": "16.0.3",
             "cve_id": "CVE-2025-30153",
             "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
         }

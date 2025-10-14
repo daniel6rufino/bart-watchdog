@@ -3,3 +3,4 @@ torch
 tqdm
 rich
 pytest
+tabulate

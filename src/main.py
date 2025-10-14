@@ -4,6 +4,7 @@ from src.analysis.package_parser import parse_package_lock
 from src.analysis.vulnerability_checker import load_known_vulns, check_vulnerabilities
 from src.ai.interface import generate_summary
 from src.report.report_generator import generate_json_report
+from tabulate import tabulate
 
 def main():
     print("[+] Carregando modelo BART...")
@@ -30,6 +31,32 @@ def main():
     generate_json_report(final_output)
 
     print("[✓] Análise concluída com sucesso.")
+    print("""
+    -----------------------------------
+          
+""")
+    exibir_tabela_vulnerabilidades(vulns)
+
+def exibir_tabela_vulnerabilidades(vulns):
+    if not vulns:
+        print("✅ Nenhuma vulnerabilidade encontrada!")
+        return
+
+    print("❌ Vulnerabilidades encontradas!\n")
+
+    headers = ["(index)", "Pacote", "Versão", "CVE", "Descrição"]
+    table = []
+
+    for i, v in enumerate(vulns):
+        table.append([
+            i,
+            v.get("package", "—"),
+            v.get("version", "—"),
+            v.get("cve", "—"),
+            v.get("description", "—"),
+        ])
+
+    print(tabulate(table, headers=headers, tablefmt="grid"))
 
 if __name__ == "__main__":
     main()

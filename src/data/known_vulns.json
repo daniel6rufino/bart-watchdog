@@ -17,10 +17,46 @@
         "cve_id": "CVE-2025-47944",
         "description": "DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior."
     },
-     {
+    {
         "package": "lodash",
         "affected_versions": "<4.17.21",
         "cve_id": "CVE-2021-23337",
         "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+    },
+    {
+        "package": "express",
+        "affected_versions": "<4.17.1",
+        "cve_id": "CVE-2019-5413",
+        "description": "Directory traversal vulnerability in express-fileupload before 1.1.10."
+    },
+    {
+        "package": "mongoose",
+        "affected_versions": "<5.11.15",
+        "cve_id": "CVE-2021-23440",
+        "description": "Prototype pollution vulnerability in mongoose due to unsanitized object keys."
+    },
+    {
+        "package": "axios",
+        "affected_versions": "<0.21.1",
+        "cve_id": "CVE-2021-3749",
+        "description": "Server-Side Request Forgery (SSRF) vulnerability in axios before 0.21.1."
+    },
+    {
+        "package": "debug",
+        "affected_versions": "<2.6.9",
+        "cve_id": "CVE-2017-16137",
+        "description": "Regular Expression Denial of Service (ReDoS) in debug before 2.6.9."
+    },
+    {
+        "package": "handlebars",
+        "affected_versions": "<4.7.7",
+        "cve_id": "CVE-2021-23369",
+        "description": "Arbitrary code execution vulnerability in handlebars before 4.7.7."
+    },
+    {
+        "package": "minimist",
+        "affected_versions": "<1.2.3",
+        "cve_id": "CVE-2020-7598",
+        "description": "Prototype pollution vulnerability in minimist before 1.2.3."
     }
 ]
