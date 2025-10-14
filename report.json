@@ -1,0 +1,29 @@
+{
+    "watson_summary": "As seguintes vulnerabilidades foram encontradas:\n- express@4.18.2 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- form-data@4.0.4 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n- form-data@4.0.4 -> Prototype pollution vulnerability in lodash before 4.17.21.\n- lodash@4.17.21 -> Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior.\n",
+    "vulnerable_dependencies": [
+        {
+            "package": "express",
+            "version": "4.18.2",
+            "cve_id": "CVE-2025-30153",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
+        },
+        {
+            "package": "form-data",
+            "version": "4.0.4",
+            "cve_id": "CVE-2025-30153",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
+        },
+        {
+            "package": "form-data",
+            "version": "4.0.4",
+            "cve_id": "CVE-2021-23337",
+            "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+        },
+        {
+            "package": "lodash",
+            "version": "4.17.21",
+            "cve_id": "CVE-2025-30153",
+            "description": "Vulnerabilidade de nega\u00c3\u00a7\u00c3\u00a3o de servi\u00c3\u00a7o (DoS) devido a uma falha de decodifica\u00c3\u00a7\u00c3\u00a3o de ZIP bomb. Atualize para 0.131.0 ou superior."
+        }
+    ]
+}

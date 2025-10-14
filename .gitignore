@@ -1,0 +1,3 @@
+.venv/
+facebook/bart-large-mnli/*
+!facebook/bart-large-mnli/.gitkeep

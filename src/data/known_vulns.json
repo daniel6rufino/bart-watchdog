@@ -1,0 +1,26 @@
+[
+    {
+        "package": "form-data",
+        "affected_versions": ">2.0.2",
+        "cve_id": "CVE-2025-30153",
+        "description": "Vulnerabilidade de negação de serviço (DoS) devido a uma falha de decodificação de ZIP bomb. Atualize para 0.131.0 ou superior."
+    },
+    {
+        "package": "form-data",
+        "affected_versions": "<2.0.1",
+        "cve_id": "CVE-2025-47935",
+        "description": "Vulnerabilidade de negação de serviço (DoS) devido a uma falha de manuseio de streams. Atualize para 2.0.0 ou superior."
+    },
+    {
+        "package": "form-data",
+        "affected_versions": "<2.0.1",
+        "cve_id": "CVE-2025-47944",
+        "description": "DoS causado por uploads com campos vazios. Atualize para 2.0.1 ou superior."
+    },
+     {
+        "package": "lodash",
+        "affected_versions": "<4.17.21",
+        "cve_id": "CVE-2021-23337",
+        "description": "Prototype pollution vulnerability in lodash before 4.17.21."
+    }
+]
